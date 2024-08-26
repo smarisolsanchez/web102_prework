@@ -21,6 +21,12 @@ body {
 
 .stats-container {
     display: flex;
+    align-items:center;
+}
+
+.stats-container:hover {
+    cursor:pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -73,3 +79,37 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.navbar {
+    flex: 1 0 25%;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 10px;
+  
+  }
+  
+  /* Style rule set for individual li */
+  .navbar ul li {
+    float: left;
+    margin: 10px;
+  }
+  
+  
+  /* Style rule set for individual li link */
+  .navbar ul li a {
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    display: block;
+  
+  }
+  
+  /* Style rule set for hovered link */
+  .navbar ul li a:hover {
+    font-weight: bold;
+  }
